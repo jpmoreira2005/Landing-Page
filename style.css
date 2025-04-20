@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#curriculo_body{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+#body_home, #body_servicos, #body_contato, #curriculo_body{
+    background-color:#a89982;
+}
+
+#body_contato {
+    margin: 0;
+    padding: 0;
+    background-color: #a9967c;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+
+
+.titulo_curriculo{
+    margin-bottom: 8px;
+    margin-top: 10px;
+    text-decoration: underline;
+    background-color: #d8bfa2;
+    border-radius: 6px;
+}
+
+#titulo_serv{
+    margin-left: 80px; 
+    position: absolute; 
+    margin-bottom: 80px;
+    margin-top: 5px;
+}
+
+#tabela_serv{
+    margin-top: 45px;
+}
+
+#tabela_serv td{
+    background-color: #9c8561;
+   font-size: 18px
+}
+
+
+#experiencias{
+    border: 1px solid gainsboro;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+#objetivos{
+    border: 1px solid gainsboro;
+    padding: 12px;
+}
+
+
+.competencias, #experiencias, #objetivos{
+    background-color: #9c8561;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#perfil{
+    border-radius: 45px; margin: 8px;
+   
+}
+
+#dados{
+   font-size: 12px;
+}
+
+#linkzada{
+    justify-content: center;
+    display: flex;
+    gap: 65px;
+}
+
+.topicos{
+    padding-top: 45px;
+    margin: 15px; 
+    
+}
+
+#titulo_contato {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  #contato {
+    background-color: #a9967c;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 70%;
+    max-width: 600px;  /* agora fica elegante em telas maiores */
+    box-sizing: border-box;
+  }
+
+
+
+form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+form input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+  }
+
+
+form button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+
+
+form button:hover {
+    background-color: #45a049;
+  }
+
+label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+#fotocurriculo img{
+
+    border-radius: 100px; 
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#emoji{
+
+    font-size: 40px;
+    position: relative;
+    top: -200px;
+    margin-left: 10px;
+
+}
+
+#linkzada a {
+    color: black;
+    text-decoration: none;
+}
+
+#linkzada a:hover{
+    color: blue;
+}
+
+.topicos h1{
+    background-color: #d8bfa2;
+    border-radius: 10px;
+}
+
+.topicos p{
+    background-color:#9c8561;
+    border-radius: 10px;
+}
+
+.topicos ul, li, ol{
+    background-color:#9c8561;
+    border-radius: 10px;
+}
+
+.topicos td,th, table{
+    background-color: #9c8561;
+}
+
+.competencias{
+    border: 1px solid gainsboro;
+    padding: 12px;
+    margin-bottom: 12px;
+    
+    
+}
